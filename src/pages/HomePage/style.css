@@ -7,7 +7,7 @@ header {
 .image-section {
   display: flex;
   width: 100%;
-  background-image: url("img/main-photo.jpg");
+  background-image: url("img/main-photo_3000.jpg");
   background-size: 100%;
   background-position: center 40%;
   background-repeat: no-repeat;
@@ -28,6 +28,10 @@ h1 {
   margin-top: 40px;
   margin-left: 230px;
   flex-shrink: 0;
+}
+
+.language-buttons :hover {
+  background-color: #aac0ed;
 }
 
 .language-buttons__button {
