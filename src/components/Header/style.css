@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.image-section {
+  padding: 15px 48px;
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+  background-image: url("img/main-photo-1200.jpg");
+  background-size: cover;
+  background-position: 15%;
+  background-repeat: no-repeat;
+  flex-grow: 1;
+}
+
+h1 {
+  font-size: 7vw;
+  color: white;
+  font-family: 'Inknut Antiqua', serif;
+  margin: 0;
+  text-shadow: 4px 4px 5px gray;
+  line-height: 1.4;
+}
+
+.language-buttons {
+  margin-top: 20px;
+  flex-shrink: 0;
+}
+
+.language-buttons :hover {
+  background-color: #aac0ed;
+}
+
+.language-buttons__button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: #fc7620;
+  color: white;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.language-buttons__button--selected {
+  border: 3px solid #fc7620;
+  background-color: white;
+  color: #fc7620;
+}
+
+.introduction {
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  padding: 30px;
+}
+
+.introduction p {
+  margin-top: 8px;
+}
+
+.introduction a {
+  margin-top: 28px;
+  color: #fc7620;
+  text-decoration: none;
+  display: block;
+}
+
+@media (min-width: 500px) {
+  .image-section {
+    background-image: url("img/main-photo-2000.jpg");
+  }
+}
+
+@media (min-width: 1200px) {
+  .image-section {
+    background-image: url("img/main-photo-3000.jpg");
+    background-position: center 40%;
+  }
+
+  h1 {
+    font-size: 5vw;
+  }
+
+  .introduction {
+    padding: 48px;
+  }
+}
