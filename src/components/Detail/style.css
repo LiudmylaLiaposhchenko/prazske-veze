@@ -1,0 +1,19 @@
+.card-detail {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+.icon {
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+}
+
+.detail {
+  display: flex;
+  justify-content: start;
+  padding: 3px;
+
+}
