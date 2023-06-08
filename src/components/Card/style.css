@@ -1,20 +1,12 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  border: 0;
-}
-
 .card-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 97%;
+  width: calc(100% - 10px);
   background-color: rgb(232, 230, 230);
   border-radius: 20px;
-  border: 0;
   padding: 30px;
-  margin: 5px;
+  margin: 10px;
   font-family: 'Inter', sans-serif;
 }
 
@@ -28,10 +20,52 @@
 h2 {
   font-size: 16px;
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
 }
 
-p {
+.card-info p {
   font-size: 14px;
   text-align: justify;
+}
+
+@media (min-width: 500px) {
+  .card-photo {
+    width: 30%;
+  }
+}
+
+@media (min-width: 650px) {
+  .card-container {
+    flex-direction: row;
+  }
+
+  .card-info {
+    padding-left: 20px;
+  }
+
+  .card-photo {
+    width: 25%;
+  }
+}
+
+@media (min-width: 900px) {
+  .card-photo {
+    width: 20%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .card-container {
+    width: calc(50% - 20px);
+  }
+
+  .card-photo {
+    width: 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-photo {
+    width: 200px;
+  }
 }

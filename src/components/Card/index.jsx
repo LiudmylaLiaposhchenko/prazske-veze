@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './style.css';
 import { useTranslation } from 'react-i18next';
-import { Detail } from '../Detail';
+import { CardDetail } from './CardDetail';
 
-export const Card = ({ photo, name, description }) => {
+export const Card = ({ photo, name, description, price }) => {
   const { t, i18n } = useTranslation();
 
   return (
@@ -12,8 +12,8 @@ export const Card = ({ photo, name, description }) => {
       <div className="card-info">
         <h2 className="card-name">{name}</h2>
         <p className="card-text">{description}</p>
-        <Detail
-          ticket={t('card.detail.ticket')}
+        <CardDetail
+          price={price}
           construction={t('card.detail.construction')}
           location={t('card.detail.location')}
         />
