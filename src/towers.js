@@ -6,6 +6,8 @@ export const towers = [
     price: 170,
     constructionCentury: 'card.tower1.constructionCentury',
     location: 'location.oldTown',
+    height: 47,
+    century: 14,
   },
   {
     name: 'card.tower2.name',
@@ -14,6 +16,8 @@ export const towers = [
     price: 300,
     constructionCentury: 'card.tower2.constructionCentury',
     location: 'location.oldTown',
+    height: 68,
+    century: 18,
   },
   {
     name: 'card.tower3.name',
@@ -22,6 +26,8 @@ export const towers = [
     price: 190,
     constructionCentury: 'card.tower3.constructionCentury',
     location: 'location.smallTown',
+    height: 43.5,
+    century: 12,
   },
   {
     name: 'card.tower4.name',
@@ -30,6 +36,8 @@ export const towers = [
     price: 190,
     constructionCentury: 'card.tower4.constructionCentury',
     location: 'location.smallTown',
+    height: 65,
+    century: 18,
   },
   {
     name: 'card.tower5.name',
@@ -38,6 +46,8 @@ export const towers = [
     price: 150,
     constructionCentury: 'card.tower5.constructionCentury',
     location: 'location.oldTown',
+    height: 96.6,
+    century: 14,
   },
   {
     name: 'card.tower6.name',
@@ -46,6 +56,8 @@ export const towers = [
     price: 150,
     constructionCentury: 'card.tower6.constructionCentury',
     location: 'location.newTown',
+    height: 42,
+    century: 17,
   },
   {
     name: 'card.tower7.name',
@@ -54,6 +66,8 @@ export const towers = [
     price: 190,
     constructionCentury: 'card.tower7.constructionCentury',
     location: 'location.oldTown',
+    height: 65,
+    century: 15,
   },
   {
     name: 'card.tower8.name',
@@ -62,6 +76,8 @@ export const towers = [
     price: 390,
     constructionCentury: 'card.tower8.constructionCentury',
     location: 'location.oldTown',
+    height: 69.5,
+    century: 14,
   },
   {
     name: 'card.tower9.name',
@@ -70,6 +86,8 @@ export const towers = [
     price: 220,
     constructionCentury: 'card.tower9.constructionCentury',
     location: 'location.smallTown',
+    height: 58.7,
+    century: 19,
   },
   {
     name: 'card.tower10.name',
@@ -78,5 +96,7 @@ export const towers = [
     price: 250,
     constructionCentury: 'card.tower10.constructionCentury',
     location: 'location.zizkov',
+    height: 216,
+    century: 20,
   },
 ];

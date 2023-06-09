@@ -17,11 +17,16 @@
   font-family: 'Inter', serif;
   padding-bottom: 10px;
   background-color: white;
+  cursor: pointer;
 }
 
 .sort-panel a {
   color: #fc7620;
   text-decoration: none;
+}
+
+.sort-button--active {
+  color: #fc7620;
 }
 
 @media (min-width: 600px) {

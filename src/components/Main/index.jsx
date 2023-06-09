@@ -6,22 +6,79 @@ import { towers } from '../../towers';
 
 export const Main = () => {
   const { t, i18n } = useTranslation();
+  const [sort, setSort] = useState('recommend');
+
+  const towersCopy = Array.from(towers);
+  const towersSorted =
+    sort === 'recommend'
+      ? towersCopy
+      : towersCopy.sort((a, b) => {
+          if (sort === 'highest') {
+            return b.height - a.height;
+          }
+          if (sort === 'oldest') {
+            return a.century - b.century;
+          }
+        });
 
   return (
     <>
       <section id="sort-panel" className="sort-panel">
         <div className="sort-buttons">
-          <button className="sort-button sort-button--active">
+          <button
+            className={
+              sort === 'recommend'
+                ? 'sort-button sort-button--active'
+                : 'sort-button'
+            }
+            onClick={() => {
+              setSort('recommend');
+            }}
+          >
             Rekomendace
           </button>
-          <button className="sort-button">Od nejstarší</button>
-          <button className="sort-button">Od nejvyšší</button>
-          <button className="sort-button">Od nejbližší</button>
+          <button
+            className={
+              sort === 'oldest'
+                ? 'sort-button sort-button--active'
+                : 'sort-button'
+            }
+            onClick={() => {
+              setSort('oldest');
+            }}
+          >
+            Od nejstarší
+          </button>
+          <button
+            className={
+              sort === 'highest'
+                ? 'sort-button sort-button--active'
+                : 'sort-button'
+            }
+            onClick={() => {
+              setSort('highest');
+            }}
+          >
+            Od nejvyšší
+          </button>
+          <button
+            className={
+              sort === 'nearest'
+                ? 'sort-button sort-button--active'
+                : 'sort-button'
+            }
+            onClick={() => {
+              setSort('nearest');
+            }}
+          >
+            {' '}
+            Od nejbližší
+          </button>
         </div>
         <a href="#header">Nahoru ↑</a>
       </section>
       <main className="cards-container">
-        {towers.map((tower) => (
+        {towersSorted.map((tower) => (
           <Card
             key={tower.name}
             photo={tower.photo}
