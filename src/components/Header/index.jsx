@@ -8,7 +8,7 @@ export const Header = () => {
 
   return (
     <>
-      <header>
+      <header id="header">
         <section className="image-section">
           <h1>{t('header.title')}</h1>
           <div className="language-buttons">
@@ -43,7 +43,7 @@ export const Header = () => {
         <section className="introduction">
           <p>{t('header.about')}</p>
           <p>{t('header.invite')}</p>
-          <a href="#">{t('header.go')}</a>
+          <a href="#sort-panel">{t('header.go')}</a>
         </section>
       </header>
     </>

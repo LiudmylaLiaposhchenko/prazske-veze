@@ -1,7 +1,49 @@
+.sort-panel {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.sort-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sort-button,
+.sort-panel a {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Inter', serif;
+  padding-bottom: 10px;
+  background-color: white;
+}
+
+.sort-panel a {
+  color: #fc7620;
+  text-decoration: none;
+}
+
+@media (min-width: 600px) {
+  .sort-buttons {
+    flex-direction: row;
+  }
+
+  .sort-button {
+    padding-right: 20px;
+  }
+}
+
 @media (min-width: 1000px) {
   .cards-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sort-panel {
+    padding: 48px;
   }
 }
