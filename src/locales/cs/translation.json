@@ -1,6 +1,70 @@
 {
-  "title": "Podivej se na Prahu zhora",
-  "about": "Vítáme v Praze! Máme tady stovky vež, a pravě veže dělají obraz města.",
-  "invite": "Přijďte se na ně podivat a užijte si malebný výhled!",
-  "go": "Naplanovát si exkurze ↓"
+  "header": {
+    "title": "Podivej se na Prahu zhora",
+    "about": "Vítáme v Praze! Máme tady stovky vež, a pravě veže dělají obraz města.",
+    "invite": "Přijďte se na ně podivat a užijte si malebný výhled!",
+    "go": "Naplanovát si exkurze ↓"
+  },
+
+  "card": {
+    "adult": "základní",
+    "currency": "Kč",
+    "tower1": {
+      "name": "Staroměstská mostecká věž",
+      "description": "Patří k nejpůsobivějším gotickým stavbám na světě.  Brána do Starého Města byla koncipována zároveň jako symbolický vítězný oblouk, kterým procházeli čeští králové na své korunovační cestě.",
+      "constructionCentury": "polovina 14. století"
+    },
+    "tower2": {
+      "name": "Astronomická věž Klementinum",
+      "description": "Historie věže úzce souvisí s univerzitním vzděláním, v němž důležitou roli hrála matematika a astronomie. Tištěná i rukopisná díla univerzitních astronomů ve zdejší knihovně svědčí o vysoké úrovni vědy té doby.",
+      "constructionCentury": "1. polovina 18. století"
+    },
+    "tower3": {
+      "name": "Malostranské mostecké věže",
+      "description": "Dvě stylově odlišné nestejně vysoké věže propojené branou tvoří vstup z Karlova mostu na Malou Stranu. Z jejího ochozu je nádherný výhled na plynoucí Vltavu a historické jádro metropole.",
+      "constructionCentury": "12. století, 15. století"
+    },
+    "tower4": {
+      "name": "Svatomikulášská městská zvonice",
+      "description": "Malebný výhled na malostranské domy a náměstí je odměnou za 215 vystoupaných schodů. Zvonice z r. 1755, která sloužila zároveň i jako požární hláska, byla poslední hlásnou věží v Praze.",
+      "constructionCentury": "18. století"
+    },
+    "tower5": {
+      "name": "Velká jižní věž katedrály sv. Víta",
+      "description": "Tato bezmála sto metrů vysoká věž nabízí jedinečný výhled na Prahu. Největší zvon v České republice umístěný ve věži katedrály, vážící odhadem asi 15 tun, se jmenuje Zikmund a pochází z roku 1549.",
+      "constructionCentury": "konec 14. století"
+    },
+    "tower6": {
+      "name": "Novomlýnská vodárenská věž",
+      "description": "Vodárenská věž v dnešní podobě byla vystavěna v roce 1658. Vodou z Vltavy zásobovala dolní část Nového Města pražského. V současné době je zde umístěna expozice o pražských hasičích a požárech.",
+      "constructionCentury": "17. století"
+    },
+    "tower7": {
+      "name": "Prašná brána",
+      "description": "edna z nejvýraznějších památek pozdně gotické Prahy z r. 1475 je monumentálním vstupem do Starého Města, kterým na území města vcházely korunovační průvody českých králů, a i dnes je vstupem na Královskou cestu vedoucí na Pražský hrad.",
+      "constructionCentury": "15. století"
+    },
+    "tower8": {
+      "name": "Věž Staroměstské radnice",
+      "description": "Jako jediná ze středověkých pražských věží je radniční věž bezbariérová - na ochoz návštěvníky vozí moderní prosklený výtah a nabízí nejkrásnější výhled na na desítky věží, věžiček a kupolí rozmanité pražské architektury.",
+      "constructionCentury": "14. století"
+    },
+    "tower9": {
+      "name": "Petřínská rozhledna",
+      "description": "Jedna z neodmyslitelných dominant Prahy, byla postavena v rámci Jubilejní výstavy r. 1891 jako volná kopie pařížské Eiffelovy věže (k té je v poměru 1:5). Rozhled z ní předestírá nejen celou Prahu, ale za jasného počasí i výhled po bezmála celých Čechách.",
+      "constructionCentury": "19. století"
+    },
+    "tower10": {
+      "name": "Žižkova vež",
+      "description": "Vež je architektura moderního brutalismu. Jedinečný panoramatický 360° výhled bude Vaši skvělou vzpomínkou na Prahu. Žižkovská věž nabízí kromě vyhlídky i restauraci, bar, bistro a SKY SUITE hotel.",
+      "constructionCentury": "20. století"
+    }
+  },
+
+  "location": {
+    "oldTown": "Praha 1 - Staré Město",
+    "zizkov": "Praha 5 - Žižkov",
+    "smallTown": "Praha 1 - Malá Strana",
+    "newTown": "Praha 1 - Nové Město"
+  }
 }

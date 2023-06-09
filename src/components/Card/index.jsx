@@ -3,8 +3,15 @@ import './style.css';
 import { useTranslation } from 'react-i18next';
 import { CardDetail } from './CardDetail';
 
-export const Card = ({ photo, name, description, price }) => {
-  const { t, i18n } = useTranslation();
+export const Card = ({
+  photo,
+  name,
+  description,
+  price,
+  constructionCentury,
+  location,
+}) => {
+  const { t } = useTranslation();
 
   return (
     <section className="card-container">
@@ -14,8 +21,8 @@ export const Card = ({ photo, name, description, price }) => {
         <p className="card-text">{description}</p>
         <CardDetail
           price={price}
-          construction={t('card.detail.construction')}
-          location={t('card.detail.location')}
+          constructionCentury={t(constructionCentury)}
+          location={t(location)}
         />
       </div>
     </section>

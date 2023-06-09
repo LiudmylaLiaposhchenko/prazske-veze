@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './style.css';
 import { useTranslation } from 'react-i18next';
 
-export const CardDetail = ({ price, construction, location }) => {
+export const CardDetail = ({ price, constructionCentury, location }) => {
   const { t } = useTranslation();
   return (
     <ul className="card-detail">
@@ -14,7 +14,7 @@ export const CardDetail = ({ price, construction, location }) => {
       </li>
       <li className="detail">
         <img className="icon" src="/icons/brick.png" alt="brick-symbol" />
-        <p>{construction}</p>
+        <p>{constructionCentury}</p>
       </li>
       <li className="detail">
         <img className="icon" src="/icons/place.png" alt="location-symbol" />
