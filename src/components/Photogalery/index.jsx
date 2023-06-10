@@ -4,10 +4,12 @@ import MobileStepper from '@mui/material/MobileStepper';
 import Button from '@mui/material/Button';
 import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
+import { Box } from '@mui/material';
 
-const Photogalery = () => {
-  const [activeStep, setActiveStep] = React.useState(0);
-  const maxSteps = 3;
+const Photogalery = ({ galeryItems }) => {
+  const [activeStep, setActiveStep] = useState(0);
+  const maxSteps = galeryItems.length;
+
   const handleNext = () => {
     setActiveStep((prevActiveStep) => prevActiveStep + 1);
   };
@@ -18,6 +20,12 @@ const Photogalery = () => {
 
   return (
     <>
+      <Box
+        component="img"
+        sx={{ height: 255, maxWidth: 400, width: '100%', p: 2 }}
+        src={galeryItems[activeStep]}
+        alt={galeryItems}
+      ></Box>
       <MobileStepper
         variant="text"
         steps={maxSteps}

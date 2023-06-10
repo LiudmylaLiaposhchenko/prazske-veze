@@ -5,15 +5,20 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
+import { useNavigate } from 'react-router-dom';
 
 import IconButton from '@mui/material/IconButton';
 
-export const HeaderTowerPage = () => {
+export const HeaderTowerPage = ({ name }) => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
   return (
     <AppBar color="transparent" position="static">
       <Toolbar>
         <IconButton
+          onClick={() => {
+            navigate('/#sort-panel');
+          }}
           size="large"
           edge="start"
           color="inherit"
@@ -23,7 +28,7 @@ export const HeaderTowerPage = () => {
           <ArrowBackIcon />
         </IconButton>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          Staroměstská mostecká věž
+          {name}
         </Typography>
       </Toolbar>
     </AppBar>

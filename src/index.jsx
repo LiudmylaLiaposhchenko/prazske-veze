@@ -22,7 +22,7 @@ const router = createBrowserRouter([
     element: <HomePage />,
   },
   {
-    path: '/tower',
+    path: '/tower/:id',
     element: <TowerPage />,
   },
 ]);

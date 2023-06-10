@@ -24,6 +24,15 @@ let theme = createTheme({
       color: '#fc7620',
     },
   },
+  components: {
+    MuiAppBar: {
+      styleOverrides: {
+        root: {
+          boxShadow: 'none',
+        },
+      },
+    },
+  },
 });
 theme = responsiveFontSizes(theme);
 export default theme;

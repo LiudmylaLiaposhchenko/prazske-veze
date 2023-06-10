@@ -1,5 +1,6 @@
 export const towers = [
   {
+    id: 1,
     name: 'card.tower1.name',
     description: 'card.tower1.description',
     photo: '/towers-photo/staromestska.jpg',
@@ -8,8 +9,17 @@ export const towers = [
     location: 'location.oldTown',
     height: 47,
     century: 14,
+    galeryItems: [
+      '/towers-photo/staromestska.jpg',
+      '/towers-photo/klementinum.jpg',
+      '/towers-photo/malostr-most.jpg',
+    ],
+    bigdescription: 'card.tower1.bigdescription',
+    subtitle: 'card.tower1.subtitle',
+    subtitle2: 'card.tower1.subtitle2',
   },
   {
+    id: 2,
     name: 'card.tower2.name',
     description: 'card.tower2.description',
     photo: '/towers-photo/klementinum.jpg',
@@ -20,6 +30,7 @@ export const towers = [
     century: 18,
   },
   {
+    id: 3,
     name: 'card.tower3.name',
     description: 'card.tower3.description',
     photo: '/towers-photo/malostr-most.jpg',
@@ -30,6 +41,7 @@ export const towers = [
     century: 12,
   },
   {
+    id: 4,
     name: 'card.tower4.name',
     description: 'card.tower4.description',
     photo: '/towers-photo/svatomikulas.jpg',
@@ -40,6 +52,7 @@ export const towers = [
     century: 18,
   },
   {
+    id: 5,
     name: 'card.tower5.name',
     description: 'card.tower5.description',
     photo: '/towers-photo/st-vitus-cathedral.jpg',
@@ -50,6 +63,7 @@ export const towers = [
     century: 14,
   },
   {
+    id: 6,
     name: 'card.tower6.name',
     description: 'card.tower6.description',
     photo: '/towers-photo/novomlynska.jpg',
@@ -60,6 +74,7 @@ export const towers = [
     century: 17,
   },
   {
+    id: 7,
     name: 'card.tower7.name',
     description: 'card.tower7.description',
     photo: '/towers-photo/prasna-brana.jpg',
@@ -70,6 +85,7 @@ export const towers = [
     century: 15,
   },
   {
+    id: 8,
     name: 'card.tower8.name',
     description: 'card.tower8.description',
     photo: '/towers-photo/staromestska-radnice.jpg',
@@ -80,6 +96,7 @@ export const towers = [
     century: 14,
   },
   {
+    id: 9,
     name: 'card.tower9.name',
     description: 'card.tower9.description',
     photo: '/towers-photo/petrzin.jpg',
@@ -90,6 +107,7 @@ export const towers = [
     century: 19,
   },
   {
+    id: 10,
     name: 'card.tower10.name',
     description: 'card.tower10.description',
     photo: '/towers-photo/zizkovska.jpg',

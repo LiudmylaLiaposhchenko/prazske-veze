@@ -5,6 +5,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 
 import Typography from '@mui/material/Typography';
+import TextWithIcon from './TextWithIcon';
 
 const Information = () => {
   const { t } = useTranslation();
@@ -13,8 +14,17 @@ const Information = () => {
       <Card sx={{ minWidth: 275 }}>
         <CardContent>
           <Typography variant="subtitle1">
-            well meaning and kindly.
-            <br />
+            {t('header.information')}
+            <TextWithIcon
+              src={'/icons/money.png'}
+              alt={'dolar-symbol'}
+              p={t('card.adult')}
+            />
+            <TextWithIcon
+              src={'/icons/place.png'}
+              alt={'location-symbol'}
+              p={t('card.adult')}
+            />
           </Typography>
         </CardContent>
       </Card>

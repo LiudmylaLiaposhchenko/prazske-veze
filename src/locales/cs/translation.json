@@ -3,7 +3,8 @@
     "title": "Podivej se na Prahu zhora",
     "about": "Vítáme v Praze! Máme tady stovky vež, a pravě veže dělají obraz města.",
     "invite": "Přijďte se na ně podivat a užijte si malebný výhled!",
-    "go": "Naplanovát si exkurze ↓"
+    "go": "Naplanovát si exkurze ↓",
+    "information": "Informace"
   },
 
   "card": {
@@ -12,7 +13,10 @@
     "tower1": {
       "name": "Staroměstská mostecká věž",
       "description": "Patří k nejpůsobivějším gotickým stavbám na světě.  Brána do Starého Města byla koncipována zároveň jako symbolický vítězný oblouk, kterým procházeli čeští králové na své korunovační cestě.",
-      "constructionCentury": "polovina 14. století"
+      "constructionCentury": "polovina 14. století",
+      "bigdescription": "Klementinum je po Pražském hradu druhý největší stavební komplex v Praze. Jde o první pražskou jezuitskou kolej. Členové Tovaryšstva Ježíšova ji začali budovat v roce 1556 po příchodu do Prahy, kam je povolal Ferdinand I., aby mu byli nápomocni v jeho protireformačních snahách. Usadili se zde na Starém Městě, v bývalém dominikánském klášteře u sv. Klimenta. Tento kostelík dal později jméno celému areálu Klementinum. V oblasti vyššího vzdělávání jezuitská kolej nejprve soupeřila s Karlovou univerzitou. Po roce 1622 se však obě vysoká učení spojila pod vedením jezuitů. Od roku 1654 pak vznikla Univerzita Karlo-Ferdinandova, dokud se na konci 19. století nerozdělila na českou a německou. Jezuité konečně sloučili i knihovny a zbudovali zde pro ně prostory.Nad budovami Klementina se tyčí Astronomická věž. Její stavitel není jistý. Na kupoli věže se tyčí gigantická olověná socha Atlanta, který drží zeměkouli. Vchod do věže je vedle vchodu do Zrcadlové kaple.Historie věže úzce souvisí s univerzitním vzděláním, v němž důležitou roli hrála matematika a astronomie. Tištěná i rukopisná díla univerzitních astronomů ve zdejší knihovně svědčí o vysoké úrovni vědy té doby. Kolem roku 1750 zde byla započata astronomická a klimatická pozorování a měření a věž byla osazována astronomickými přístroji. O rozvoj astronomie se nejvíce zasloužil ředitel observatoře Josef Stepling a mechanik Jan Klein. V roce 1775 zde zahájil matematik a fyzik Antonín Strnad soustavné záznamy meteorologických a klimatických měření, která se v Klementinu konají nepřetržitě dodnes. V Berlíně sice započali s měřeními dříve, ta ale byla na řadu let přerušena, takže Klementinum má světový primát. Od roku 1842 bylo z Klementina ohlašováno poledne mávnutím praporu, které bylo od roku 1891 až do roku 1926 doprovázeno dělovou salvou z Hradčan. Po roce 1928 byla astronomická pozorování přestěhována do nové hvězdárny v Ondřejově. Časová služba zůstala na zdejší věži až do okupace, od roku 1926 poskytovalo Klementinum časový signál pro vysílání Radiožurnálu.",
+      "subtitle": "Doba výstavby:  1.polovina 18. století.",
+      "subtitle2": "Výška: Věž je vysoká asi 47 metrů."
     },
     "tower2": {
       "name": "Astronomická věž Klementinum",

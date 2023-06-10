@@ -80,6 +80,7 @@ export const Main = () => {
       <main className="cards-container">
         {towersSorted.map((tower) => (
           <Card
+            id={tower.id}
             key={tower.name}
             photo={tower.photo}
             name={t(tower.name)}

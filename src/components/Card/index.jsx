@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 import './style.css';
 import { useTranslation } from 'react-i18next';
 import { CardDetail } from './CardDetail';
+import { useNavigate } from 'react-router-dom';
 
 export const Card = ({
+  id,
   photo,
   name,
   description,
@@ -12,9 +14,15 @@ export const Card = ({
   location,
 }) => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
 
   return (
-    <section className="card-container">
+    <section
+      onClick={() => {
+        navigate('/tower/' + id);
+      }}
+      className="card-container"
+    >
       <img className="card-photo" src={photo} alt={name} />
       <div className="card-info">
         <h2 className="card-name">{name}</h2>
