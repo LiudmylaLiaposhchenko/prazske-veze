@@ -5,19 +5,21 @@ import './i18n';
 import { HomePage } from './pages/Homepage';
 import { createBrowserRouter, RouterProvider, Link } from 'react-router-dom';
 import { TowerPage } from './pages/Towerpage';
+import { ThemeProvider } from '@mui/material/styles';
+import theme from './components/theme';
 
 const App = () => {
   return (
-    <div>
-      <HomePage />
-    </div>
+    <ThemeProvider theme={theme}>
+      <RouterProvider router={router} />,
+    </ThemeProvider>
   );
 };
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />,
+    element: <HomePage />,
   },
   {
     path: '/tower',
@@ -25,6 +27,4 @@ const router = createBrowserRouter([
   },
 ]);
 
-createRoot(document.querySelector('#app')).render(
-  <RouterProvider router={router} />,
-);
+createRoot(document.querySelector('#app')).render(<App />);
