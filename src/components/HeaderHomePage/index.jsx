@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import './style.css';
 import { useTranslation } from 'react-i18next';
 
-export const Header = () => {
+export const HeaderHomePage = () => {
   const [isOn, setIsOn] = useState(true);
   const { t, i18n } = useTranslation();
 
   return (
     <>
-      <header id="header">
+      <header id="header" className="header-homepage">
         <section className="image-section">
           <h1>{t('header.title')}</h1>
           <div className="language-buttons">

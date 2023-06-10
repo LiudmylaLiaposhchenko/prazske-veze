@@ -1,9 +1,10 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './style.css';
-import { useTranslation } from 'react-i18next';
 import './i18n';
 import { HomePage } from './pages/Homepage';
+import { createBrowserRouter, RouterProvider, Link } from 'react-router-dom';
+import { TowerPage } from './pages/Towerpage';
 
 const App = () => {
   return (
@@ -13,4 +14,17 @@ const App = () => {
   );
 };
 
-createRoot(document.querySelector('#app')).render(<App />);
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+  },
+  {
+    path: '/tower',
+    element: <TowerPage />,
+  },
+]);
+
+createRoot(document.querySelector('#app')).render(
+  <RouterProvider router={router} />,
+);
