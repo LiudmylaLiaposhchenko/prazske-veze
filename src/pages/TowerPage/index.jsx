@@ -8,6 +8,7 @@ import Description from '../../components/Descripton';
 import Information from '../../components/Information';
 import { towers } from '../../towers';
 import { useParams } from 'react-router-dom';
+import Review from '../../components/Review';
 
 export const TowerPage = () => {
   const { id } = useParams();
@@ -23,12 +24,20 @@ export const TowerPage = () => {
         </Grid>
         <Grid item xs={12} md={7}>
           <Description
-            subtitle={t(tower.subtitle)}
-            bigdescription={t(tower.bigdescription)}
+            subtitle1={t(tower.subtitle1)}
+            subtitle2={t(tower.subtitle2)}
+            bigdescription={t(tower.bigdescription, { returnObjects: true })}
           />
         </Grid>
         <Grid item xs={12} md={5}>
-          <Information />
+          <Information
+            price={tower.price}
+            location={t(tower.location)}
+            urlTicket={tower.urlTicket}
+          />
+        </Grid>
+        <Grid item xs={12} md={7}>
+          <Review placeId={tower.placeId} title={t('header.reviewTitle')} />
         </Grid>
       </Grid>
     </>

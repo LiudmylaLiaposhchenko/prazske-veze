@@ -4,7 +4,8 @@
     "about": "Vítáme v Praze! Máme tady stovky vež, a pravě veže dělají obraz města.",
     "invite": "Přijďte se na ně podivat a užijte si malebný výhled!",
     "go": "Naplanovát si exkurze ↓",
-    "information": "Informace"
+    "information": "Informace",
+    "reviewTitle": "Recenze"
   },
 
   "card": {
@@ -14,54 +15,118 @@
       "name": "Staroměstská mostecká věž",
       "description": "Patří k nejpůsobivějším gotickým stavbám na světě.  Brána do Starého Města byla koncipována zároveň jako symbolický vítězný oblouk, kterým procházeli čeští králové na své korunovační cestě.",
       "constructionCentury": "polovina 14. století",
-      "bigdescription": "Klementinum je po Pražském hradu druhý největší stavební komplex v Praze. Jde o první pražskou jezuitskou kolej. Členové Tovaryšstva Ježíšova ji začali budovat v roce 1556 po příchodu do Prahy, kam je povolal Ferdinand I., aby mu byli nápomocni v jeho protireformačních snahách. Usadili se zde na Starém Městě, v bývalém dominikánském klášteře u sv. Klimenta. Tento kostelík dal později jméno celému areálu Klementinum. V oblasti vyššího vzdělávání jezuitská kolej nejprve soupeřila s Karlovou univerzitou. Po roce 1622 se však obě vysoká učení spojila pod vedením jezuitů. Od roku 1654 pak vznikla Univerzita Karlo-Ferdinandova, dokud se na konci 19. století nerozdělila na českou a německou. Jezuité konečně sloučili i knihovny a zbudovali zde pro ně prostory.Nad budovami Klementina se tyčí Astronomická věž. Její stavitel není jistý. Na kupoli věže se tyčí gigantická olověná socha Atlanta, který drží zeměkouli. Vchod do věže je vedle vchodu do Zrcadlové kaple.Historie věže úzce souvisí s univerzitním vzděláním, v němž důležitou roli hrála matematika a astronomie. Tištěná i rukopisná díla univerzitních astronomů ve zdejší knihovně svědčí o vysoké úrovni vědy té doby. Kolem roku 1750 zde byla započata astronomická a klimatická pozorování a měření a věž byla osazována astronomickými přístroji. O rozvoj astronomie se nejvíce zasloužil ředitel observatoře Josef Stepling a mechanik Jan Klein. V roce 1775 zde zahájil matematik a fyzik Antonín Strnad soustavné záznamy meteorologických a klimatických měření, která se v Klementinu konají nepřetržitě dodnes. V Berlíně sice započali s měřeními dříve, ta ale byla na řadu let přerušena, takže Klementinum má světový primát. Od roku 1842 bylo z Klementina ohlašováno poledne mávnutím praporu, které bylo od roku 1891 až do roku 1926 doprovázeno dělovou salvou z Hradčan. Po roce 1928 byla astronomická pozorování přestěhována do nové hvězdárny v Ondřejově. Časová služba zůstala na zdejší věži až do okupace, od roku 1926 poskytovalo Klementinum časový signál pro vysílání Radiožurnálu.",
-      "subtitle": "Doba výstavby:  1.polovina 18. století.",
+      "bigdescription": [
+        "Staroměstská mostecká věž patří k nejpůsobivějším gotickým stavbám na světě. Věž spolu s Karlovým mostem nechal vybudovat podle návrhu Petra Parléře císař Karel IV. Brána do Starého Města byla koncipována zároveň jako symbolický vítězný oblouk, kterým procházeli čeští králové na své korunovační cestě.",
+        "Za stavbu odpovídal sochař a stavitel Michael Savoyen, zeť Petra Parléře. Po něm převzal dům i dílnu roku 1385 kameník Petr, který věž dokončil. Kromě hlavních projektantů a sochařů se na práci vystřídalo kolem sta kameníků.",
+        "V horní části věže směrem k mostu bylo v roce 1621 vystaveno pro výstrahu 12 hlav některých z vůdců stavovského povstání, popravených na Staroměstském náměstí. Hlavy tu visely přes 10 let, sejmuty pak byly tajně v noci a pohřbeny na dodnes neznámém místě.",
+        "V roce 1648 byla věž poničena při švédském obléhání Prahy, obzvláště strana obrácená k mostu, která byla původně ozdobena sochami trůnící Madony a císaře a krále Karla IV. a jeho manželky Elišky Pomořanské. Na tuto stranu byla při následné rekonstrukci, kterou provedli v letech 1650 — 53 Carlo Lurago a Giovanni Spinetti, umístěna kamenná deska s latinským textem na památku hrdinného boje Pražanů se Švédy.",
+        "K důkladné opravě došlo v letech 1854 — 78 pod vedením Josefa Mockera, přičemž věž dostala dnešní střechu se čtyřmi nárožními věžičkami. Další opravy probíhaly v letech 1952 — 55 a 1978. Při jedné z drobných oprav byly náhodně pod střechou objeveny dva záhadné nápisy, které nemají mezery mezi slovy a čteny zepředu i pozpátku mají stejný text. Správně psány vypadají takto: Signate, signate, mere me tangis et angis; Roma, tibi subito motibus ibit amor (Na vědomí tobě znamení, poskvrníš-li mě dotykem, budeš zardoušen; Říme, tobě náhle převraty bude obětována láska). Tyto věty nedávají hlubší smysl, ale je prý v nich ukryta magická formule síly a moci. Jsou tzv. magickou pastí — zaříkadlem, kterého se měly polekat zlé mocnosti. Podobné nápisy bývaly obvyklé na sakrálních stavbách zejména v Itálii."
+      ],
+      "subtitle1": "Doba výstavby: 14. století.",
       "subtitle2": "Výška: Věž je vysoká asi 47 metrů."
     },
     "tower2": {
       "name": "Astronomická věž Klementinum",
       "description": "Historie věže úzce souvisí s univerzitním vzděláním, v němž důležitou roli hrála matematika a astronomie. Tištěná i rukopisná díla univerzitních astronomů ve zdejší knihovně svědčí o vysoké úrovni vědy té doby.",
-      "constructionCentury": "1. polovina 18. století"
+      "constructionCentury": "1. polovina 18. století",
+      "bigdescription": [
+        "Klementinum je po Pražském hradu druhý největší stavební komplex v Praze. Jde o první pražskou jezuitskou kolej. Členové Tovaryšstva Ježíšova ji začali budovat v roce 1556 po příchodu do Prahy, kam je povolal Ferdinand I., aby mu byli nápomocni v jeho protireformačních snahách. Usadili se zde na Starém Městě, v bývalém dominikánském klášteře u sv. Klimenta. Tento kostelík dal později jméno celému areálu - Klementinum.",
+        "V oblasti vyššího vzdělávání jezuitská kolej nejprve soupeřila s Karlovou univerzitou. Po roce 1622 se však obě vysoká učení spojila pod vedením jezuitů. Od roku 1654 pak vznikla Univerzita Karlo-Ferdinandova, dokud se na konci 19. století nerozdělila na českou a německou. Jezuité konečně sloučili i knihovny a zbudovali zde pro ně prostory.",
+        "Nad budovami Klementina se tyčí Astronomická věž. Její stavitel není jistý. Na kupoli věže se tyčí gigantická olověná socha Atlanta, který drží zeměkouli.",
+        "Vchod do věže je vedle vchodu do Zrcadlové kaple.",
+        "Historie věže úzce souvisí s univerzitním vzděláním, v němž důležitou roli hrála matematika a astronomie. Tištěná i rukopisná díla univerzitních astronomů ve zdejší knihovně svědčí o vysoké úrovni vědy té doby. Kolem roku 1750 zde byla započata astronomická a klimatická pozorování a měření a věž byla osazována astronomickými přístroji. O rozvoj astronomie se nejvíce zasloužil ředitel observatoře Josef Stepling a mechanik Jan Klein. V roce 1775 zde zahájil matematik a fyzik Antonín Strnad soustavné záznamy meteorologických a klimatických měření, která se v Klementinu konají nepřetržitě dodnes. V Berlíně sice započali s měřeními dříve, ta ale byla na řadu let přerušena, takže Klementinum má světový primát. Od roku 1842 bylo z Klementina ohlašováno poledne mávnutím praporu, které bylo od roku 1891 až do roku 1926 doprovázeno dělovou salvou z Hradčan. Po roce 1928 byla astronomická pozorování přestěhována do nové hvězdárny v Ondřejově. Časová služba zůstala na zdejší věži až do okupace, od roku 1926 poskytovalo Klementinum časový signál pro vysílání Radiožurnálu."
+      ],
+      "subtitle1": "Doba výstavby:  1.polovina 18. století.",
+      "subtitle2": "Výška: Výška: Věž je vysoká 68 m, ochoz je ve výšce 52 metrů."
     },
     "tower3": {
       "name": "Malostranské mostecké věže",
       "description": "Dvě stylově odlišné nestejně vysoké věže propojené branou tvoří vstup z Karlova mostu na Malou Stranu. Z jejího ochozu je nádherný výhled na plynoucí Vltavu a historické jádro metropole.",
-      "constructionCentury": "12. století, 15. století"
+      "constructionCentury": "12. století, 15. století",
+      "bigdescription": [
+        "Nižší mostecká věž, též zvaná Juditina, je v jádru románská, pochází asi z počátku 2. čtvrtiny 12. století a byla součástí levobřežního opevnění. Zbytky rustikované omítky, okenní šambrány, štíty a střecha jsou z doby renesanční úpravy z roku 1591. Na začátku 15. století bylo ve věži zřízeno vězení pro nejtěžší provinilce. Od konce 16. století do roku 1784 sloužila jako celní úřad. Potom vystřídala několik majitelů a od roku 1893 patří městu. Věž není veřejnosti přístupná. Ve sklepení se zachoval unikátní soubor rytin pocházejících z poloviny 13. století, které zobrazují lidské postavy, zvířata a zbraně, osmicípou hvězdu a řadu šlechtických erbů.",
+        "K věži je přistaven malý domek, zvaný celnice. V jeho prvním patře vedle vchodu do menší mostecké věže se nachází pozdně románský opukový reliéf, který zdobil východní průčelí věže a až do 16. století byl vidět z mostu. Koncem 19. století byl náhodně odkryt, poté další půlstoletí skryt pod bedněním. V roce 1951 byl upraven péčí Uměleckoprůmyslového muzea a v letech 1981 — 83 restaurován akad. sochařem Jožkou Antkem. Reliéf, již v době svého objevení značně poškozený, je chráněn velkou předsunutou skleněnou tabulí.",
+        "Vyšší mostecká věž byla postavena po roce 1464 na náklad Jiřího z Poděbrad na místě starší věže románské. Její podoba navazuje na koncepci Parléřovy Staroměstské mostecké věže. Stavební materiál tvoří velké pískovcové kvádry. Důkladně opravována byla v letech 1874 — 79 pod vedením arch. Josefa Mockera. Věž sloužívala jako hláska a skladiště. Výška věže je cca 43,5 m bez makovic a špiček, ochoz je ve výšce 26 m. Je veřejnosti přístupná.",
+        "Branou mezi oběma věžemi se vchází na Malou Stranu. Brána vznikla po roce 1411 na místě starší, nepochybně románské stavby a má nadezdívku s cimbuřím, je opatřená znaky zemí Václava IV."
+      ]
     },
     "tower4": {
       "name": "Svatomikulášská městská zvonice",
       "description": "Malebný výhled na malostranské domy a náměstí je odměnou za 215 vystoupaných schodů. Zvonice z r. 1755, která sloužila zároveň i jako požární hláska, byla poslední hlásnou věží v Praze.",
-      "constructionCentury": "18. století"
+      "constructionCentury": "18. století",
+      "bigdescription": [
+        "Malebný výhled na malostranské domy a náměstí je odměnou za 215 vystoupaných schodů  na ochoz věže přilehlého barokního kostela sv. Mikuláše. Zvonice z r. 1755, která sloužila zároveň i jako požární hláska, byla poslední hlásnou věží v Praze. Od 60. let 20. století sloužila jako pozorovatelna Státní bezpečnosti pro sledování západních ambasád sídlících v okolí věže.",
+        "Věž, zvonici či hlásku, která přiléhá ke kostelu, postavil Kilián Ignác Dientzenhofer, Anselmo Lurago ji pouze dokončil podle jeho plánů v roce 1755. Výška věže je stejná jako výška vedlejší kupole chrámu, ochoz, dnes přístupný veřejnosti, je ve výšce 65 m a vede sem 215 schodů. Věž patřila obci, nikoliv církvi, což vyjadřuje znak Malé Strany nad vchodem. Proto má také čp. 556, zatímco kostelní stavby popisná čísla většinou nemají. Věž má také samostatný vstup z náměstí. Ostatně od středověku bylo zvykem, že zvonice kostelů stavěly obce. Věž sv. Mikuláše byla poslední hlásnou věží v Praze. V roce 1891 se z ní odstěhoval poslední hlásný, jehož úkolem bylo zvonit při požáru a ukazovat směr červeným fáborem z okna, v noci pak lucernou. Po něm zde bydlel malíř Jan Vochoč, který maloval hlavně Hradčany a malostranské střechy. Od počátku 50. let do pádu komunistického režimu zde byla pozorovatelna Státní tajné bezpečnosti, která odtud monitorovala zejména pohyby na velvyslanectvích západních zemí. V letech 1996 - 1997 proběhla rekonstrukce vnějšího pláště, byly upraveny vnitřní prostory pro zpřístupnění veřejnosti. Byly restaurovány i hodiny s šestimetrovým ciferníkem a kované zábradlí staré jako zvonice sama. Otevření pro veřejnost se konalo 9. 8. 1997."
+      ]
     },
     "tower5": {
       "name": "Velká jižní věž katedrály sv. Víta",
       "description": "Tato bezmála sto metrů vysoká věž nabízí jedinečný výhled na Prahu. Největší zvon v České republice umístěný ve věži katedrály, vážící odhadem asi 15 tun, se jmenuje Zikmund a pochází z roku 1549.",
-      "constructionCentury": "konec 14. století"
+      "constructionCentury": "konec 14. století",
+      "bigdescription": [
+        "Velká jižní věž katedrály svatého Víta, Václava a Vojtěcha, nazývaná také Jižní věž katedrály svatého Víta, Václava a Vojtěcha, je dominantní součástí katedrály svatého Víta, Václava a Vojtěcha, která se nachází v areálu Pražského hradu v historické části Hradčany města Prahy. Svou výškou je třetí nejvyšší kostelní věží v Česku.",
+        "Se stavbou věže začal již Petr Parléř na konci 14. století. K jejímu dokončení v gotickém slohu ovšem nedošlo. V 16. století přibyl renesanční ochoz s kupolí. Ta byla následně v 18. století nahrazena současnou.",
+        "Největší zvon v České republice umístěný ve věži katedrály, vážící odhadem asi 15 tun, se jmenuje Zikmund a pochází z roku 1549. Cín zvonoviny pochází ze Slavkova a měď ze středního Slovenska. Zvon vyniká nádhernou reliéfní výzdobou - některé prvky jeho výzdoby byly na českém území použity poprvé (otisky mincí a medailí). K rozhoupání zvonu je třeba 6 zvoníků - 4 rozhoupávají zvon, 2 obsluhují srdce.",
+        "Dne 15. června 2002 při vyzvánění k svátku sv. Víta puklo srdce zvonu, což dle pověsti znamená blížící se pohromu. V srpnu toho roku naši zemi postihly katastrofální stoleté povodně.",
+        "Víte, že si při výstupu ověříte svoji fyzickou kondici a budete odměněni... nádherným výhledem?",
+        "Věříme, že odpustíte našim předkům, že nemysleli na méně zdatné turisty, a s chutí se vydáte zdolat 287 schodů a budete se kochat pohledem na jedno z nejkrásnějších měst světa."
+      ]
     },
     "tower6": {
       "name": "Novomlýnská vodárenská věž",
       "description": "Vodárenská věž v dnešní podobě byla vystavěna v roce 1658. Vodou z Vltavy zásobovala dolní část Nového Města pražského. V současné době je zde umístěna expozice o pražských hasičích a požárech.",
-      "constructionCentury": "17. století"
+      "constructionCentury": "17. století",
+      "bigdescription": [
+        "Věž byla postavena v barokním slohu v roce 1658 na pozůstatcích původní renesanční věže, která byla v roce 1655 zničena povodní. Voda z řeky se nejdříve mechanicky čerpala do nádrže, která byla umístěna v horní části věže, posléze klesala dřevěným potrubím šachtou věže do přízemí, odkud byla rozváděna dalším potrubím do městských kašen a domů. Svému původnímu účelu sloužila věž až do roku 1877.",
+        "Historická vodárenská věž se nachází na pravém břehu Vltavy v místě někdejších Nových mlýnů. Pro vyhlídkový sál, který se nachází v nejvyšším patře stavby, bývá památka považována za historicky první pražskou rozhlednu.",
+        "V nedávné době prošla památka generální obnovou a v roce 2017 se mohla historicky poprvé otevřít veřejnosti. V jejím interiéru se nachází tematicky výjimečná expozice „Praha hoří“. Její pojetí v maximální možné míře využívá multimediálních prvků – návštěvník je prostřednictvím videomappingu, animací, videoartu a virtuální reality seznámen s úlohou vodárenských věží, tematikou ohně nebo příběhy pražských hasičů. Expozice je završena vstupem do vyhlídkového sálu, který nabízí panoramatický výhled na Prahu.",
+        "Jak vodárenská věž fungovala? Základní mechanizmus tvořil mlýn se dvěma koly, která přes klikovou hřídel poháněla pístová čerpadla. Jedno čerpadlo nasávalo vodu do rezervoáru mlýna a druhé ji pak vytlačilo do čtvrtého patra věže, kde se ve výšce třiatřiceti metrů nacházela nádrž o objemu necelého metru krychlového. Po naplnění nádrže se voda rozvodným potrubím samospádem dostávala do šestapadesáti veřejných kašen Nového Města pražského, několika pivovarů a soukromých kašen. Původně bývalo v zimních měsících potrubí zahřívané otevřeným ohněm, aby se zabránilo jeho zamrzání a poškození. Ohniště později nahradila kamna, která se nacházela v přízemí věže."
+      ]
     },
     "tower7": {
       "name": "Prašná brána",
       "description": "edna z nejvýraznějších památek pozdně gotické Prahy z r. 1475 je monumentálním vstupem do Starého Města, kterým na území města vcházely korunovační průvody českých králů, a i dnes je vstupem na Královskou cestu vedoucí na Pražský hrad.",
-      "constructionCentury": "15. století"
+      "constructionCentury": "15. století",
+      "bigdescription": [
+        "Jedna z nejvýraznějších památek pozdně gotické Prahy z r. 1475 je monumentálním vstupem do Starého Města, kterým na území města vcházely korunovační průvody českých králů, a i dnes je vstupem na Královskou cestu vedoucí na Pražský hrad. Stavba je unikátní svou kamenosochařskou výzdobou, znázorňující krále, české patrony a světce. Z ochozu věže, který je ve výšce 44 metrů, se nabízí výjimečný pohled na centrum Prahy.",
+        "Byla postavena na místě zchátralé původní brány Horské, zvané Odraná, pocházející z 1. poloviny 13. století. Prašnou branou vstupovala do města jedna z hlavních silnic přicházející z východních Čech, zejména z Kutné Hory.",
+        "Základní kámen byl položen v roce 1475, stavbu řídil stavitel Václav, od roku 1478 Matěj Rejsek, který zčásti provedl i bohatou sochařskou výzdobu. Věž byla založena na dně hradebního příkopu cca 9 m pod dnešním terénem. Později byl příkop zasypáván, po založení Nového Města ztratil svůj význam, a zmizel i most vedoucí k průjezdu. Od roku 1488 zůstala brána nedokončena zřejmě proto, že královská rezidence přesídlila ze Starého Města opět na Hrad. Další stavební práce byly obnoveny až roku 1592 za primátora Krocína z Drahobejle, kdy byl vybudován nový vchod a točité schodiště (používá se dodnes). Předtím byl přístup pouze pavlačí z Královského dvora.",
+        "Z 18. století pochází pojmenování „Prašná“, pro které ale nemáme žádné doklady, resp. neexistují prameny, které by potvrdily, že věž skutečně sloužila jako úložiště střelného prachu.",
+        "Roku 1757 byla poškozena pruskou střelbou a roku 1817 byla odstraněna všechna poškozená plastická výzdoba. Roku 1823 byly na věži umístěny hodiny, později odstraněny. Dnešní stav pochází z let 1875 - 86, kdy byla Prašná brána restaurována a dostavěna v pseudogotickém stylu arch. Josefem Mockerem za spolupráce významných českých sochařů např. Bohuslava Schnircha a Ludvíka Šimka."
+      ]
     },
     "tower8": {
       "name": "Věž Staroměstské radnice",
       "description": "Jako jediná ze středověkých pražských věží je radniční věž bezbariérová - na ochoz návštěvníky vozí moderní prosklený výtah a nabízí nejkrásnější výhled na na desítky věží, věžiček a kupolí rozmanité pražské architektury.",
-      "constructionCentury": "14. století"
+      "constructionCentury": "14. století",
+      "bigdescription": [
+        "Dominantou Staroměstské radnice i celého náměstí mohutná téměř 70 m vysoká gotická věž ze 14. století. Její ochoz nabízí nejkrásnější výhled na město - je odtud možné zhlédnout Týnský chrám nebo kostel sv. Mikuláše, v dálce obdivovat Pražský hrad nebo se nechat unášet výhledem na desítky věží, věžiček a kupolí rozmanité pražské architektury.",
+        "Středověké mechanické věžní hodiny jsou umístěné na jižní straně věže Staroměstské radnice. Každou celou hodinu (9.00 - 23.00) se na orloji objevuje 12 figur apoštolů.",
+        "Již v době svého vzniku ve 14. století byla nejvyšší věží v celé Praze. Její stavba měla především praktický význam - v případě nebezpečí byl odtud dáván městu varovný signál. Roku 1410 byl na její jižní stranu umístěn orloj, který byl v pozdější době dále zdokonalován a doplňován.",
+        "Za Pražského povstání na konci druhé světové války v květnu 1945 sloužila Staroměstská radnice jako jedno z ústředí protinacistického odboje. V jejím bezprostředním okolí probíhaly boje mezi povstalci a německou armádou, což vedlo k velkým škodám. Požár vznikl při ostřelování radnice 8. května německými vojsky, pár hodin před podepsáním jejich kapitulace. Zničil novogotické křídlo radnice natolik, že zůstaly stát jen obvodové zdi. Těžké škody utrpěla při požáru také věž, gotický arkýř a Staroměstský orloj, shořel městský archiv s cennými prameny k dějinám Prahy."
+      ]
     },
     "tower9": {
       "name": "Petřínská rozhledna",
       "description": "Jedna z neodmyslitelných dominant Prahy, byla postavena v rámci Jubilejní výstavy r. 1891 jako volná kopie pařížské Eiffelovy věže (k té je v poměru 1:5). Rozhled z ní předestírá nejen celou Prahu, ale za jasného počasí i výhled po bezmála celých Čechách.",
-      "constructionCentury": "19. století"
+      "constructionCentury": "19. století",
+      "bigdescription": [
+        "Petřínská rozhledna, jedna z neodmyslitelných dominant Prahy, byla postavena v rámci Jubilejní výstavy r. 1891 jako volná kopie pařížské Eiffelovy věže (k té je v poměru 1:5), je vysoká 58,70 m a na její vrchol, který je ve stejné nadmořské výšce jako skutečná Eiffelova věž, vede 299 schodů. Rozhled z ní předestírá nejen celou Prahu, ale za jasného počasí i výhled po bezmála celých Čechách.",
+        "Myšlenka stavby Petřínské rozhledny se zrodila roku 1889 při výpravě organizované Klubem českých turistů na Světovou výstavu v Paříži. Účastníci pařížské výpravy byli natolik uchváceni vysokou ocelovou věží Gustava Eiffela, že se rozhodli podobnou konstrukci zbudovat i nad Prahou. Jubilejní zemská výstava plánovaná na rok 1891 byla pro velkorysou stavbu skvělou příležitostí. Hned po návratu nadšenci založili Družstvo pro výstavbu Petřínské rozhledny, vložili do něj první peníze a od magistrátu získali pozemek na Petříně.",
+
+        "Během rekordních čtyř týdnů byla vyrobena železná konstrukce a následně dopravena na Petřín. Stavělo se podle pařížské Eiffelovky z plávkové oceli, technologií horkých nýtů. Byl to skutečný závod s časem, takže stavba rostla dnes těžko představitelným tempem. Za tři měsíce bylo dokončeno i nejvyšší patro s 299 dřevěnými schody. Rozhledna byla završena zasklenou lucernou a svatováclavskou korunou s železnou žerdí na prapory, která zároveň sloužila jako hromosvod. Původní rozpočet činil 32 000 zlatých, ve výsledku se ale náklady na stavbu víc než zdvojnásobily. Petřínská věž si Pražany získala, okamžitě ji přijali za svou, vždyť se už během stavby v davech chodili dívat, jak pokračují práce na „jejich rozhledně“. Za necelé čtyři měsíce od zahájení prací bylo hotovo. Slavnostní otevření rozhledny se konalo 20. srpna 1891."
+      ]
     },
     "tower10": {
       "name": "Žižkova vež",
       "description": "Vež je architektura moderního brutalismu. Jedinečný panoramatický 360° výhled bude Vaši skvělou vzpomínkou na Prahu. Žižkovská věž nabízí kromě vyhlídky i restauraci, bar, bistro a SKY SUITE hotel.",
-      "constructionCentury": "20. století"
+      "constructionCentury": "20. století",
+      "bigdescription": [
+        "Každá světová metropole má svou ikonickou vyhlídkovou věž. Žižkovský vysílač je jednou z pražských dominant a současně nejvyšší pražskou stavbou. O jeho výstavbě bylo rozhodnuto z důvodů stále se rozrůstajícího města a přibývajících rušivých vlivů na příjem televizního signálu. Váha celé konstrukce se pohybuje okolo 2 200 tun. Není bez zajímavosti, že za dobrých podmínek se lze rozhlédnout až 100 km daleko. Na věži je také místěno 10 obřích soch - miminek od sochaře Davida Černého.",
+        "Věž vysoká 216 metrů byla postavena v letech 1985-1992 podle plánů architektů Václav Aulického a Jiřího Kozáka. Díky náročné rekonstrukci vás veškeré prostory osloví nevšedním stylem a designem.",
+        "Žižkovská věž - Tower Park Praha - není nejen nejvyšší stavbou Prahy, ale se svými 216 metry i nejvyšší vyhlídkovou plošinou v České republice. Konstrukce se skládá ze tří válcových ocelových tubusů dosahujících společně výšky 134 metrů. Hlavní tubus, obsahující dva rychlovýtahy, pak přechází do anténního nástavce sahajícího do výšky 216 metrů.",
+        "Po kompletní rekonstrukci všech vnitřních prostor, je pro vás připravena nová Observatoř Tower Park Praha ve výšce 93 metrů nad zemí, která nabízí jako jediná v Praze 360° pohled na metropoli. Díky otevírací době od 9.00 do 24.00 hodin můžete obdivovat výhled za denního světla stejně, jak v noci, kdy se stává Praha téměř magická. Kromě úžasného výhledu zde můžete vyzkoušet i interaktivní zábavu v podobě ozvučených závěsných křesel, tzn. bubble chairs nebo videí představujících Prahu i celou Českou republiku."
+      ]
     }
   },
 

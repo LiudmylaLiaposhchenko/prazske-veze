@@ -10,13 +10,16 @@ export const towers = [
     height: 47,
     century: 14,
     galeryItems: [
-      '/towers-photo/staromestska.jpg',
-      '/towers-photo/klementinum.jpg',
-      '/towers-photo/malostr-most.jpg',
+      '/towers-photo/staromestska1.jpg',
+      '/towers-photo/staromestska2.jpg',
+      '/towers-photo/staromestska3.jpg',
     ],
     bigdescription: 'card.tower1.bigdescription',
-    subtitle: 'card.tower1.subtitle',
+    subtitle1: 'card.tower1.subtitle1',
     subtitle2: 'card.tower1.subtitle2',
+    urlTicket:
+      'https://tickets.colosseum.eu/pct/standard/Hall/Index/2022537/t9oN_plu_sEQSuEROOaQlNTCAg_rov__rov__xcodex_AGA1gFbU4wg3TkNR1wTVipS5Ry7cgmyJ8HjPdQ__?',
+    placeId: 'ChIJMbJV6eWUC0cRZM00zzxyBhA',
   },
   {
     id: 2,
@@ -28,6 +31,17 @@ export const towers = [
     location: 'location.oldTown',
     height: 68,
     century: 18,
+    galeryItems: [
+      '/towers-photo/klementinum1.jpg',
+      '/towers-photo/klementinum2.jpg',
+      '/towers-photo/klementinum3.jpg',
+    ],
+    bigdescription: 'card.tower2.bigdescription',
+    subtitle1: 'card.tower2.subtitle1',
+    subtitle2: 'card.tower2.subtitle2',
+    urlTicket:
+      'https://www.prague.eu/cs/objekt/mista/4071/astronomicka-vez-a-barokni-knihovna-klementinum#colosseumTickets',
+    placeId: 'ChIJNUIyNe-UC0cRnw1-EJKuNLI',
   },
   {
     id: 3,
@@ -39,6 +53,7 @@ export const towers = [
     location: 'location.smallTown',
     height: 43.5,
     century: 12,
+    placeId: 'ChIJ7V007-OUC0cRCCh69m3Lnuw',
   },
   {
     id: 4,
@@ -50,6 +65,7 @@ export const towers = [
     location: 'location.smallTown',
     height: 65,
     century: 18,
+    placeId: 'ChIJ2xLlJOKUC0cRhuLwovjdffk',
   },
   {
     id: 5,
@@ -61,6 +77,7 @@ export const towers = [
     location: 'location.oldTown',
     height: 96.6,
     century: 14,
+    placeId: 'ChIJW08COB6VC0cRoonZ8lA4rWk',
   },
   {
     id: 6,
@@ -72,6 +89,7 @@ export const towers = [
     location: 'location.newTown',
     height: 42,
     century: 17,
+    placeId: 'ChIJ745_usGUC0cRkulIKiAzTQ4',
   },
   {
     id: 7,
@@ -83,6 +101,7 @@ export const towers = [
     location: 'location.oldTown',
     height: 65,
     century: 15,
+    placeId: 'ChIJBfIPBeuUC0cRphNG7F-4SZM',
   },
   {
     id: 8,
@@ -94,6 +113,7 @@ export const towers = [
     location: 'location.oldTown',
     height: 69.5,
     century: 14,
+    placeId: 'ChIJVTa4MOmUC0cR1WjVAxfAAws',
   },
   {
     id: 9,
@@ -105,6 +125,7 @@ export const towers = [
     location: 'location.smallTown',
     height: 58.7,
     century: 19,
+    placeId: 'ChIJd71LDf2UC0cRkcGvwf8x33E',
   },
   {
     id: 10,
@@ -116,5 +137,6 @@ export const towers = [
     location: 'location.zizkov',
     height: 216,
     century: 20,
+    placeId: 'ChIJweACSJyUC0cRE4gGU06KHKY',
   },
 ];

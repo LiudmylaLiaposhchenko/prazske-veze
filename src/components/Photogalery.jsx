@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './style.css';
 import MobileStepper from '@mui/material/MobileStepper';
 import Button from '@mui/material/Button';
 import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
@@ -22,7 +21,7 @@ const Photogalery = ({ galeryItems }) => {
     <>
       <Box
         component="img"
-        sx={{ height: 255, maxWidth: 400, width: '100%', p: 2 }}
+        sx={{ maxheight: 800, maxWidth: 850, width: '100%', p: 2 }}
         src={galeryItems[activeStep]}
         alt={galeryItems}
       ></Box>

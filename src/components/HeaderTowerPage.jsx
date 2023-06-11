@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './style.css';
 import { useTranslation } from 'react-i18next';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import AppBar from '@mui/material/AppBar';
@@ -27,7 +26,7 @@ export const HeaderTowerPage = ({ name }) => {
         >
           <ArrowBackIcon />
         </IconButton>
-        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+        <Typography variant="h1" component="div" sx={{ flexGrow: 1 }}>
           {name}
         </Typography>
       </Toolbar>

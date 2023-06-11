@@ -11,17 +11,28 @@ let theme = createTheme({
   },
   typography: {
     subtitle1: {
-      fontFamily: 'Inter',
+      fontFamily: "'Inter', sans-serif",
       fontSize: '1rem',
     },
     body1: {
-      fontFamily: 'Inter',
+      fontFamily: "'Inter', sans-serif",
       fontSize: '0.9rem',
     },
-    h6: {
+    h1: {
       fontFamily: "'Inknut Antiqua', serif",
       fontSize: '1.2rem',
       color: '#fc7620',
+    },
+
+    h2: {
+      fontFamily: "'Inknut Antiqua', serif",
+      fontSize: '1.1rem',
+      color: '#fc7620',
+    },
+
+    h3: {
+      fontFamily: "'Inknut Antiqua', serif",
+      fontSize: '0.8rem',
     },
   },
   components: {
@@ -29,6 +40,26 @@ let theme = createTheme({
       styleOverrides: {
         root: {
           boxShadow: 'none',
+        },
+      },
+    },
+
+    MuiCard: {
+      styleOverrides: {
+        root: {
+          backgroundColor: 'rgb(232, 230, 230)',
+          borderRadius: '20px',
+          padding: '10px',
+          margin: '10px',
+          boxShadow: 'none',
+        },
+      },
+    },
+
+    MuiCardHeader: {
+      styleOverrides: {
+        root: {
+          textAlign: 'center',
         },
       },
     },
