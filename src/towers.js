@@ -20,6 +20,14 @@ export const towers = [
     urlTicket:
       'https://tickets.colosseum.eu/pct/standard/Hall/Index/2022537/t9oN_plu_sEQSuEROOaQlNTCAg_rov__rov__xcodex_AGA1gFbU4wg3TkNR1wTVipS5Ry7cgmyJ8HjPdQ__?',
     placeId: 'ChIJMbJV6eWUC0cRZM00zzxyBhA',
+    operation: [
+      ['leden-březen', 'po-ne', '10:00-18:00'],
+      ['duben-květen', 'po-ne', '10:00-19:00'],
+      ['červen-srpen', 'po-ne', '09:00-21:00'],
+      ['září', 'po-ne', '10:00-19:00'],
+      ['říjen-listopad', 'po-ne', '10:00-18:00'],
+      ['prosinec', 'po-ne', '10:00-20:00'],
+    ],
   },
   {
     id: 2,

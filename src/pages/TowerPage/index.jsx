@@ -9,6 +9,7 @@ import Information from '../../components/Information';
 import { towers } from '../../towers';
 import { useParams } from 'react-router-dom';
 import Review from '../../components/Review';
+import Operation from '../../components/Operation';
 
 export const TowerPage = () => {
   const { id } = useParams();
@@ -37,7 +38,8 @@ export const TowerPage = () => {
           />
         </Grid>
         <Grid item xs={12} md={7}>
-          <Review placeId={tower.placeId} title={t('header.reviewTitle')} />
+          {/* <Review placeId={tower.placeId} title={t('header.reviewTitle')} /> */}
+          <Operation time={tower.operation} />
         </Grid>
       </Grid>
     </>
