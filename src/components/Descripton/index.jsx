@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
-import { useTranslation } from 'react-i18next';
+import React from 'react';
 import Typography from '@mui/material/Typography';
 
 const Description = ({ subtitle1, subtitle2, bigdescription }) => {
-  const { t } = useTranslation();
   return (
     <>
       <Typography variant="subtitle1" gutterBottom>

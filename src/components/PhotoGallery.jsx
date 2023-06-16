@@ -5,9 +5,9 @@ import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 import { Box } from '@mui/material';
 
-const Photogalery = ({ galeryItems }) => {
+const PhotoGallery = ({ galleryItems }) => {
   const [activeStep, setActiveStep] = useState(0);
-  const maxSteps = galeryItems.length;
+  const maxSteps = galleryItems.length;
 
   const handleNext = () => {
     setActiveStep((prevActiveStep) => prevActiveStep + 1);
@@ -22,9 +22,9 @@ const Photogalery = ({ galeryItems }) => {
       <Box
         component="img"
         sx={{ maxheight: 800, maxWidth: 850, width: '100%', p: 2 }}
-        src={galeryItems[activeStep]}
-        alt={galeryItems}
-      ></Box>
+        src={galleryItems[activeStep]}
+        alt={galleryItems}
+      />
       <MobileStepper
         variant="text"
         steps={maxSteps}
@@ -49,4 +49,4 @@ const Photogalery = ({ galeryItems }) => {
   );
 };
 
-export default Photogalery;
+export default PhotoGallery;

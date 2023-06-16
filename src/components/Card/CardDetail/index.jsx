@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './style.css';
 import { useTranslation } from 'react-i18next';
 
@@ -12,6 +12,7 @@ export const CardDetail = ({ price, constructionCentury, location }) => {
           {t('card.adult')} {price} {t('card.currency')}
         </p>
       </li>
+
       <li className="detail">
         <img className="icon" src="/icons/brick.png" alt="brick-symbol" />
         <p>{constructionCentury}</p>

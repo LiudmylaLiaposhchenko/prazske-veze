@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { useTranslation } from 'react-i18next';
+import React from 'react';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
@@ -9,7 +8,6 @@ import { useNavigate } from 'react-router-dom';
 import IconButton from '@mui/material/IconButton';
 
 export const HeaderTowerPage = ({ name }) => {
-  const { t } = useTranslation();
   const navigate = useNavigate();
   return (
     <AppBar color="transparent" position="static">

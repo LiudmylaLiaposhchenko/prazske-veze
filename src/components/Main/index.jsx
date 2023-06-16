@@ -35,7 +35,7 @@ export const Main = () => {
               setSort('recommend');
             }}
           >
-            Rekomendace
+            {t('sortPanel.recommend')}
           </button>
           <button
             className={
@@ -47,7 +47,7 @@ export const Main = () => {
               setSort('oldest');
             }}
           >
-            Od nejstarší
+            {t('sortPanel.oldest')}
           </button>
           <button
             className={
@@ -59,7 +59,7 @@ export const Main = () => {
               setSort('highest');
             }}
           >
-            Od nejvyšší
+            {t('sortPanel.highest')}
           </button>
           <button
             className={
@@ -71,11 +71,10 @@ export const Main = () => {
               setSort('nearest');
             }}
           >
-            {' '}
-            Od nejbližší
+            {t('sortPanel.nearest')}
           </button>
         </div>
-        <a href="#header">Nahoru ↑</a>
+        <a href="#header">{t('sortPanel.top')}</a>
       </section>
       <main className="cards-container">
         {towersSorted.map((tower) => (

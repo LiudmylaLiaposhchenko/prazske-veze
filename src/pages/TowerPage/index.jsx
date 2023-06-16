@@ -3,7 +3,7 @@ import './style.css';
 import { useTranslation } from 'react-i18next';
 import { HeaderTowerPage } from '../../components/HeaderTowerPage';
 import Grid from '@mui/material/Grid';
-import Photogalery from '../../components/Photogalery';
+import PhotoGallery from '../../components/PhotoGallery';
 import Description from '../../components/Descripton';
 import Information from '../../components/Information';
 import { towers } from '../../towers';
@@ -21,7 +21,7 @@ export const TowerPage = () => {
       <HeaderTowerPage name={t(tower.name)} />
       <Grid container spacing={2}>
         <Grid item xs={12} md={5}>
-          <Photogalery galeryItems={tower.galeryItems} />
+          <PhotoGallery galleryItems={tower.galleryItems} />
         </Grid>
         <Grid item xs={12} md={7}>
           <Description
@@ -35,11 +35,18 @@ export const TowerPage = () => {
             price={tower.price}
             location={t(tower.location)}
             urlTicket={tower.urlTicket}
+            mapUrl={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+              t(tower.name),
+            )}&query_place_id=${tower.placeId}`}
+          />
+          <Operation
+            time={tower.operation}
+            subtitle3={t(tower.subtitle3)}
+            subtitle4={t(tower.subtitle4)}
           />
         </Grid>
         <Grid item xs={12} md={7}>
-          {/* <Review placeId={tower.placeId} title={t('header.reviewTitle')} /> */}
-          <Operation time={tower.operation} />
+          <Review />
         </Grid>
       </Grid>
     </>

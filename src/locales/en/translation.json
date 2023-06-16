@@ -4,5 +4,201 @@
     "about": "Welcom to Prague! We have hundreds of towers here, and it is the towers that make the image of the city.",
     "invite": "Come and marvel at them and enjoy the picturesque view!",
     "go": "Plan an excursion ↓"
+  },
+  "sortPanel": {
+    "recommend": "Recommended",
+    "highest": "Highest",
+    "oldest": "Oldest",
+    "nearest": "Nearest",
+    "top": "To the top ↑"
+  },
+  "towerPage": {
+    "information": "Information",
+    "reviewTitle": "Reviews",
+    "operationTitle": "Opening hours",
+    "month1": "January",
+    "month2": "February",
+    "month3": "March",
+    "month4": "April",
+    "month5": "May",
+    "month6": "June",
+    "month7": "July",
+    "month8": "August",
+    "month9": "September",
+    "month10": "October",
+    "month11": "November",
+    "month12": "December",
+    "day1": "Mon",
+    "day2": "Tue",
+    "day3": "Wed",
+    "day4": "Thu",
+    "day5": "Fri",
+    "day6": "Sat",
+    "day7": "Sun",
+    "bayTicket": "Buy ticket",
+    "showMap": "Show map"
+  },
+
+  "card": {
+    "adult": "adult",
+    "currency": "CZK",
+    "tower1": {
+      "name": "Old Town Bridge Tower",
+      "description": "It is one of the most impressive Gothic buildings in the world. The gate to the Old Town was conceived at the same time as a symbolic triumphal arch through which the Czech kings passed on their coronation journey.",
+      "constructionCentury": "middle of the 14th century",
+      "bigdescription": [
+        "The Old Town Bridge Tower is one of the most impressive Gothic buildings in the world. The tower, together with the Charles Bridge, was built according to the design of Petr Parler by Emperor Charles IV. The gate to the Old Town was conceived at the same time as a symbolic triumphal arch through which the Czech kings passed on their coronation journey.",
+        "The sculptor and builder Michael Savoyen, Peter Parléř's son-in-law, was responsible for the construction. After him, the stonemason Petr took over the house and the workshop in 1385, who completed the tower. In addition to the main designers and sculptors, around a hundred stonemasons took turns at work.",
+        "In the upper part of the tower towards the bridge, in 1621, 12 heads of some of the leaders of the estate uprising, executed in the Old Town Square, were displayed as a warning. The heads hung there for over 10 years, then they were removed secretly at night and buried in a still unknown place.",
+        "In 1648, the tower was damaged during the Swedish siege of Prague, especially the side facing the bridge, which was originally decorated with statues of the enthroned Madonna and the emperor and king Charles IV and his wife Eliška Pomeranian. On this side, during the subsequent reconstruction carried out in 1650 — 53 Carlo Lurago and Giovanni Spinetti, a stone slab with a Latin text was placed in memory of the heroic struggle of the people of Prague against the Swedes.",
+        "Thorough repairs took place in the years 1854 — 78 under the leadership of Josef Mocker, while the tower received the present roof with four corner turrets. Further repairs took place in the years 1952 — 55 and 1978. During one of the minor repairs, two mysterious inscriptions were accidentally discovered under the roof, which have no spaces between the words and read from front to back have the same text. Properly written they look like this: Signate, signate, mere me tangis et angis; Roma, tibi subito motibus ibit amor ; Rome, love will be sacrificed to you by sudden upheavals). These sentences do not give a deeper meaning, but it is said that a magical formula of strength and power is hidden in them. They are a so-called magical trap — an incantation that was supposed to frighten evil powers. Similar inscriptions used to be common on sacral buildings especially in Italy."
+      ],
+      "subtitle1": "Construction period: 14th century.",
+      "subtitle2": "Height: The tower is about 47 meters high.",
+      "subtitle3": "50% of the entrance fee every day for the first hour after opening.",
+      "subtitle4": "Last entry is possible 30 minutes before closing."
+    },
+    "tower2": {
+      "name": "The Clementinum Astronomical Tower",
+      "description": "The history of the tower is closely related to university education, in which mathematics and astronomy played an important role. The printed and manuscript works of university astronomers in the local library testify to the high level of science of that time.",
+      "constructionCentury": "1st half of the 18th century",
+      "bigdescription": [
+        "Clementinum is the second largest building complex in Prague after Prague Castle. It is the first Jesuit college in Prague. Members of the Society of Jesus began to build it in 1556 after arriving in Prague, where they were called by Ferdinand I to help him in his counter-reformation efforts. They settled here in the Old Town, in the former Dominican monastery near St. Clement. This church later gave the name to the entire area - Klementinum.",
+        "In the field of higher education, the Jesuit college first competed with Charles University. However, after 1622, both higher learning institutions were united under the leadership of the Jesuits. From 1654, the Charles-Ferdinand University was established until it split into Czech and German at the end of the 19th century. Jesuits they finally merged the libraries and built spaces for them here.",
+        "Above the Clementine buildings rises the Astronomical Tower. Its builder is uncertain. On the dome of the tower stands a gigantic lead statue of Atlanta holding a globe.",
+        "The entrance to the tower is next to the entrance to the Mirror Chapel.",
+        "The history of the tower is closely related to university education, in which mathematics and astronomy played an important role. The printed and manuscript works of university astronomers in the local library testify to the high level of science of that time. Astronomical and climatic observations and measurements were started here around 1750, and the tower was equipped with astronomical instruments. The director of the observatory, Josef Stepling, and the mechanic, Jan Klein, were most responsible for the development of astronomy. In 1775, the mathematician and physicist Antonín Strnad began systematic records of meteorological and climatic measurements, which continue to take place continuously in Klementin to this day. Although they started with measurements in Berlin earlier, but it was interrupted for a number of years, so Klementinum has world primacy. From 1842, noon was announced from Klementinum by waving the flag, which was accompanied by a cannon salvo from Hradčany from 1891 until 1926. After 1928, the astronomical observations were moved to the new observatory in Ondřejov. The time service remained on the local tower until the occupation, from 1926 Klementinum provided the time signal for the broadcast of Radiožurnál."
+      ],
+      "subtitle1": "Construction period: 1st half of the 18th century.",
+      "subtitle2": "Height: The tower is 68 meters high, the walkway is 52 meters high.",
+      "subtitle3": "50% of the entrance fee every day for the first hour after opening.",
+      "subtitle4": "Tickets must be purchased as an e-Ticket. Tickets can be purchased for Czech and English tours. Tours are limited in capacity. We do not guarantee the possibility of purchasing tickets directly at the Klementina box office."
+    },
+    "tower3": {
+      "name": "Lesser Town Bridge Towers",
+      "description": "Two stylistically different towers of unequal height connected by a gate form the entrance from the Charles Bridge to Mala Strana. From its balcony there is a wonderful view of the flowing Vltava and the historical core of the metropolis.",
+      "constructionCentury": "12th century, 15th century",
+      "bigdescription": [
+        "The lower bridge tower, also called Juditina, is Romanesque in its core, dates from the beginning of the second quarter of the 12th century and was part of the left bank fortifications. The remains of the rusticated plaster, window sashes, gables and roof are from the Renaissance period of 1591. At the beginning of the 15th century, a prison was established in the tower for the most serious criminals. From the end of the 16th century until 1784, it served as a customs office. It then changed several owners and has belonged to the city since 1893. The tower is not open to the public. A unique set of engravings from the middle of the 13th century has been preserved in the cellar, which depict human figures, animals and weapons, an eight-pointed star and a number of noble coats of arms.",
+        "A small house, called the customs house, is attached to the tower. On its first floor, next to the entrance to the smaller bridge tower, there is a late Romanesque marl relief, which decorated the eastern facade of the tower and was visible from the bridge until the 16th century. At the end of the 19th century, it was accidentally exposed, then hidden under formwork for the next half century. In 1951, it was modified by the Museum of Arts and Crafts and restored by the academic sculptor Jožka Antek between 1981 and 1983. The relief, which was already badly damaged at the time of its discovery, is protected by a large protruding glass pane.",
+        "The higher bridge tower was built after 1464 at the expense of Jiří z Poděbrady on the site of an older Romanesque tower. Its form follows the concept of Parléř's Old Town bridge tower. The building material consists of large sandstone blocks. It was thoroughly repaired in the years 1874 — 79 under the leadership of arch. Josef Mockera. The tower served as a bell tower and a warehouse. The height of the tower is approx. 43.5 m without poppies and spikes, the walkway is at a height of 26 m. It is accessible to the public.",
+        "Mała Strana is entered through the gate between the two towers. The gate was built after 1411 on the site of an older, undoubtedly Romanesque building and has a battlemented crest and is equipped with the symbols of the lands of Wenceslas IV."
+      ],
+      "subtitle1": "Construction period: 12th century, 15th century.",
+      "subtitle2": "Height: The tower is 43.5 m high, the walkway is 26 m high.",
+      "subtitle3": "50% of the entrance fee every day for the first hour after opening.",
+      "subtitle4": "Last entry is possible 30 minutes before closing."
+    },
+    "tower4": {
+      "name": "St. Nicholas Bell Tower",
+      "description": "A picturesque view of the Malostran houses and square is the reward for climbing the 215 steps. The belfry from 1755, which also served as a fire alarm, was the last signal tower in Prague.",
+      "constructionCentury": "18th century",
+      "bigdescription": [
+        "A picturesque view of the Malostran houses and square is the reward for climbing the 215 steps to the tower gallery of the adjacent baroque church of St. Nicholas. The belfry from 1755, which also served as a fire alarm, was the last signal tower in Prague. Since the 1960s, it has served as a State Security observatory for monitoring Western embassies located in the vicinity of the tower.",
+        "The tower, belfry or belfry, which is adjacent to the church, was built by Kilián Ignác Dientzenhofer, Anselmo Lurago only completed it according to his plans in 1755. The height of the tower is the same as the height of the adjacent dome of the church, the walkway, accessible to the public today, is at a height of 65 m and 215 steps lead here. The tower belonged to the village, not to the church, which is indicated by the symbol of Malá Strana above the entrance. That is why it also has the number 556, while church buildings usually do not have descriptive numbers. The tower also has a separate entrance from the square. After all, since the Middle Ages it has been customary that church belfries were built by municipalities. The St. Nicholas Tower was the last signal tower in Prague. In 1891, the last signalman moved out of it, whose task was to ring the bell in case of fire and show the direction with a red streamer from the window, and at night with a lantern. After him, a painter lived here Jan Vochoč, who mainly painted Hradčany and Malostran roofs.From the early 1950s until the fall of the communist regime, there was an observation post of the State Secret Security, which mainly monitored movements in the embassies of Western countries from there. In the years 1996 - 1997, the outer shell was reconstructed, the interior spaces were modified to make them accessible to the public. A clock with a six-meter dial and a wrought-iron railing as old as the belfry itself were also restored. The opening to the public took place on August 9, 1997."
+      ],
+      "subtitle1": "Construction period: 18th century.",
+      "subtitle2": "Height: The tower is 65 m high.",
+      "subtitle3": "50% of the entrance fee every day for the first hour after opening.",
+      "subtitle4": "Last entry is possible 30 minutes before closing."
+    },
+    "tower5": {
+      "name": "The Great South Tower of the Cathedral of St.Vitus",
+      "description": "This almost one hundred meter high tower offers a unique view of Prague. The largest bell in the Czech Republic located in the cathedral tower, weighing an estimated 15 tons, is called Zikmund and dates from 1549.",
+      "constructionCentury": "end of the 14th century",
+      "bigdescription": [
+        "The Great South Tower of the Cathedral of St. Vitus, Wenceslas and Audrey, also called the South Tower of the Cathedral of St. Vitus, Wenceslas and Audrey, is the dominant part of the Cathedral of St. Vitus, Wenceslas and Audrey, which is located on the premises of the Prague Castle in the historic Hradčany part of the city of Prague. Its height is the third highest church tower in the Czech Republic.",
+        "Petr Parléř started building the tower at the end of the 14th century. However, it was not completed in the Gothic style. In the 16th century, a Renaissance gallery with a dome was added. It was subsequently replaced by the present one in the 18th century.",
+        "The largest bell in the Czech Republic located in the tower of the cathedral, weighing an estimated 15 tons, is called Zikmund and dates from 1549. The pewter of the bells comes from Slavkov and the copper from central Slovakia. The bell stands out for its beautiful relief decoration - some elements of its decoration were in the Czech territories used for the first time (coin and medal impressions). 6 ringers are needed to swing the bell - 4 swing the bell, 2 serve the heart.",
+        "On June 15, 2002, when ringing for the feast of St. Vitus, the heart of the bell burst, which, according to legend, means impending disaster. In August of that year, our country was hit by catastrophic one-hundred-year floods.",
+        "Do you know that on the way up you will test your physical condition and be rewarded with... a magnificent view?",
+        "We believe that you will forgive our ancestors for not thinking about less fit tourists, and you will gladly go up the 287 steps and enjoy the view of one of the most beautiful cities in the world."
+      ],
+      "subtitle1": "Construction period: end of the 14th century.",
+      "subtitle2": "Height: The tower is 96.6 m high.",
+      "subtitle3": "In case of bad weather, the tower is closed",
+      "subtitle4": "Last entry is possible 30 minutes before closing."
+    },
+    "tower6": {
+      "name": "New Mill Water Tower",
+      "description": "The water tower in its present form was built in 1658. It supplied the lower part of Prague's New Town with water from the Vltava River. Currently, there is an exhibition about Prague firefighters and fires.",
+      "constructionCentury": "17th century",
+      "bigdescription": [
+        "The tower was built in the Baroque style in 1658 on the remains of the original Renaissance tower, which was destroyed by a flood in 1655. Water from the river was first mechanically pumped into a reservoir located in the upper part of the tower, then it descended through a wooden pipe through the tower shaft to the ground floor, from where it was distributed through another pipe to the city's fountains and houses. The tower served its original purpose until 1877.",
+        "The historic water tower is located on the right bank of the Vltava at the site of the former New Mills. The observation hall, which is located on the top floor of the building, is considered to be the first historical observation tower in Prague.",
+        "Recently, the monument underwent a general restoration and in 2017 it was able to open to the public for the first time in history. In its interior there is a thematically exceptional exhibition 'Prague is on fire' and virtual reality will be introduced to the role of water towers, the theme of fire or the stories of Prague firefighters. The exhibition is completed by entering the observation hall, which offers a panoramic view of Prague.",
+        "How did the water tower work? The basic mechanism was a mill with two wheels that drove piston pumps via a crankshaft. One pump sucked water into the mill's reservoir, and the other pumped it up to the fourth floor of the tower, where at a height of thirty-three meters there was a tank with a volume of less than cubic meter. After the reservoir was filled, the water was sent through the distribution pipeline to the fifty-six public fountains of the New Town of Prague, several breweries and private fountains. Originally, in the winter months, the pipeline was heated by an open fire to prevent it from freezing and being damaged. The fireplace was later replaced by a stove, which was located on the ground floor of the tower."
+      ],
+      "subtitle1": "Construction period: 17th century.",
+      "subtitle2": "Height: The tower is 42 m high.",
+      "subtitle3": "50% of the entrance fee every day for the first hour after opening.",
+      "subtitle4": "Last entry is possible 30 minutes before closing."
+    },
+    "tower7": {
+      "name": "Powder Gate Tower",
+      "description": "One of the most striking monuments of late Gothic Prague from 1475 is the monumental entrance to the Old Town, through which the coronation processions of the Czech kings entered the city, and even today it is the entrance to the Royal Road leading to Prague Castle.",
+      "constructionCentury": "15th century",
+      "bigdescription": [
+        "One of the most striking monuments of late Gothic Prague from 1475 is the monumental entrance to the Old Town, through which the coronation processions of the Czech kings entered the city, and even today it is the entrance to the Royal Road leading to Prague Castle. The building is unique in its stone sculpture decoration, depicting kings, Czech patrons and saints. From the tower's balcony, which is at a height of 44 meters, an exceptional view of the center of Prague is offered.",
+        "It was built on the site of the dilapidated original Horská gate, called Odraná, dating from the first half of the 13th century. One of the main roads coming from eastern Bohemia, especially from Kutná Hora, entered the city through the dusty gate.",
+        "The foundation stone was laid in 1475, the construction was supervised by the builder Václav, and from 1478 by Matěj Rejsek, who in part also carried out the rich sculptural decoration. The tower was founded at the bottom of the moat approx. 9 m below the current terrain. Later, the moat was filled in, after the foundation The town lost its importance, and the bridge leading to the passage also disappeared. From 1488, the gate remained unfinished, probably because the royal residence moved from the Old Town back to the Castle. Further construction work was resumed only in 1592 under the mayor Krocín of Drahobejl, when it was built a new entrance and a spiral staircase (still in use today). Before that, access was only through the palace from the Royal Court.",
+        "The name 'Powder' comes from the 18th century, but we have no documents for it, or there are no sources that would confirm that the tower really served as a storage for gunpowder.",
+        "In 1757, it was damaged by Prussian firing, and in 1817, all the damaged plastic decoration was removed. In 1823, a clock was placed on the tower, later removed. The current state dates from 1875 - 86, when the Powder Gate was restored and completed in the pseudo-Gothic style by Arch. Josef Mocker with the cooperation of important Czech sculptors such as Bohuslav Schnirch and Ludvík Šimek."
+      ],
+      "subtitle1": "Construction period: 15th century",
+      "subtitle2": "Height: The tower is 65m tall.",
+      "subtitle3": "50% of the entrance fee every day for the first hour after opening.",
+      "subtitle4": "Last entry is possible 30 minutes before closing."
+    },
+    "tower8": {
+      "name": "Old Town Hall Tower",
+      "description": "As the only one of Prague's medieval towers, the town hall tower is barrier-free - visitors are taken to the walkway by a modern glass elevator and offers the most beautiful view of the dozens of towers, turrets and domes of Prague's diverse architecture.",
+      "constructionCentury": "14th century",
+      "bigdescription": [
+        "The dominant feature of the Old Town Hall and the entire square is the almost 70 m high Gothic tower from the 14th century. Its balcony offers the most beautiful view of the city - from here you can see the Týn Church or the Church of St. Nicholas, admire the Prague Castle in the distance or let yourself be carried away by the view of dozens of towers, turrets and domes of diverse Prague architecture.",
+        "The medieval mechanical tower clock is located on the south side of the tower of the Old Town Hall. Every full hour (9:00 a.m. - 11:00 p.m.) 12 figures of the apostles appear on the clock.",
+        "Already at the time of its creation in the 14th century, it was the tallest tower in all of Prague. Its construction was primarily of practical importance - in case of danger, a warning signal was given to the city from there. In 1410, an astronomical clock was placed on its southern side, which was later improved and supplemented.",
+        "During the Prague Uprising at the end of World War II in May 1945, the Old Town Hall served as one of the headquarters of the anti-Nazi resistance. Fighting between the insurgents and the German army took place in its immediate vicinity, which led to great damage. The fire started when the town hall was shelled by German troops on May 8 , a few hours before signing their capitulation. He destroyed the neo-Gothic wing of the town hall so much that only the perimeter walls remained standing. The tower, the Gothic bay window and the Old Town Astronomical Clock also suffered heavy damage in the fire, and the city archive with valuable sources on the history of Prague burned down."
+      ],
+      "subtitle1": "Construction period: 14th century",
+      "subtitle2": "Height: The tower is 69.5 m high.",
+      "subtitle3": "Access to the town hall tower is barrier-free for disabled people in wheelchairs - an elevator leads from the ground floor to the 3rd floor and is followed by a separate elevator in the town hall tower (capacity 10 people). A mobile platform is located between the two lifts. A mechanical wheelchair is available for hire for people in an electric wheelchair for which the platform is not adapted.",
+      "subtitle4": "The main entrance to the building is a barrier (2 stairs). There is a side entrance with one stone step, which workers can compensate with a mobile wooden ramp. There is a bell signal at this entrance."
+    },
+    "tower9": {
+      "name": "Petřín Lookout Tower",
+      "description": "One of the essential landmarks of Prague, it was built as part of the Jubilee Exhibition in 1891 as a free copy of the Eiffel Tower in Paris (it has a ratio of 1:5). The view from it shows not only the whole of Prague, but also a view of almost the whole of Bohemia in clear weather.",
+      "constructionCentury": "19th century",
+      "bigdescription": [
+        "Petrín Tower, one of Prague's essential landmarks, was built as part of the Jubilee Exhibition in 1891 as a loose copy of the Eiffel Tower in Paris (to which it is in a ratio of 1:5), it is 58.70 m high and at its top, which is at the same as high as the real Eiffel Tower, there are 299 steps. The view from it shows not only the whole of Prague, but in clear weather also a view of almost the whole of Bohemia.",
+        "The idea of building the Petrín Lookout Tower was born in 1889 during an expedition organized by the Club of Czech Tourists to the World Exhibition in Paris. The participants of the Paris expedition were so captivated by the tall steel tower of Gustave Eiffel that they decided to build a similar structure above Prague. Jubilee National Exhibition planned for 1891 was a great opportunity for a generous construction. Immediately after their return, the enthusiasts founded the Society for the Construction of the Petřín Lookout, invested the first money in it, and obtained land on Petřín from the municipality.",
+        "In a record four weeks, the iron structure was made and then transported to Petřín. It was built according to the Parisian Eiffel Tower, made of floating steel, using hot rivet technology. It was a real race against time, so the construction grew at a pace hard to imagine today. In three months, even the highest floor with 299 wooden steps. The observation tower was topped with a glazed lantern and a St. Wenceslas crown with an iron pole for flags, which also served as a lightning rod. The original budget was 32,000 guilders, but as a result, the construction costs more than doubled. The Petrin Tower won Praguers, they immediately accepted it as their own, because already during the construction they came in crowds to see how the work on 'their observation tower' continued. In less than four months from the start of the work, it was finished. The ceremonial opening of the observation tower took place on August 20, 1891."
+      ],
+      "subtitle1": "Construction period: 19th century.",
+      "subtitle2": "Height: The tower is 58.7 m high.",
+      "subtitle3": "Last entry is possible 30 minutes before closing.",
+      "subtitle4": "Children under 5 are admitted for free."
+    },
+    "tower10": {
+      "name": "Žižkov Television Tower",
+      "description": "The tower is the architecture of modern brutalism. The unique panoramic 360° view will be your great memory of Prague. In addition to the viewpoint, the Žižkov Tower offers a restaurant, bar, bistro and SKY SUITE hotel.",
+      "constructionCentury": "20th century",
+      "bigdescription": [
+        "Every world metropolis has its iconic observation tower. The Žižkov transmitter is one of Prague's landmarks and at the same time the tallest building in Prague. Its construction was decided due to the ever-growing city and the increasing interference with the reception of the television signal. The weight of the entire structure is around 2,200 tons. It is not without interest that under good conditions you can see up to 100 km away. There are also 10 giant statues - babies by the sculptor David Černý on the tower.",
+        "The 216-meter-high tower was built between 1985 and 1992 according to the plans of architects Václav Aulický and Jiří Kozák. Thanks to the demanding reconstruction, all spaces will appeal to you with unusual style and design.",
+        "Žižkov Tower - Tower Park Prague - is not only the tallest building in Prague, but with its 216 meters it is also the highest viewing platform in the Czech Republic. The structure consists of three cylindrical steel tubes reaching a total height of 134 meters. The main tube, containing two high-speed elevators, then passes to the antenna extension reaching a height of 216 meters.",
+        "After the complete reconstruction of all internal spaces, the new Tower Park Prague Observatory is ready for you at a height of 93 meters above the ground, which is the only one in Prague that offers a 360° view of the metropolis. Thanks to the opening hours from 9 a.m. to midnight, you can admire the view in daylight as well as at night, when Prague becomes almost magical. In addition to the amazing view, you can also try interactive entertainment in the form of suspended chairs with sound, i.e. bubble chairs or videos representing Prague and the entire Czech Republic."
+      ],
+      "subtitle1": "Construction period: 20th century.",
+      "subtitle2": "Height: The tower is 216 m high.",
+      "subtitle3": "When buying a ticket online, you don't have to wait in line when entering the reception.",
+      "subtitle4": "The electronic ticket is valid for 2 months from the date of purchase."
+    }
+  },
+  "location": {
+    "oldTown": "Prague 1 - Old Town",
+    "zizkov": "Prague 3 - Žižkov",
+    "lesserTown": "Prague 1 - Lesser Town",
+    "newTown": "Prague 1 - New Town"
   }
 }
