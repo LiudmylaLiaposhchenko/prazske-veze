@@ -11,7 +11,7 @@ import theme from './components/theme';
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
-      <RouterProvider router={router} />,
+      <RouterProvider router={router} />
     </ThemeProvider>
   );
 };
