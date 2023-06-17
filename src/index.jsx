@@ -2,9 +2,9 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './style.css';
 import './i18n';
-import { HomePage } from './pages/Homepage';
-import { createBrowserRouter, RouterProvider, Link } from 'react-router-dom';
-import { TowerPage } from './pages/Towerpage';
+import { HomePage } from './pages/HomePage';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { TowerPage } from './pages/TowerPage';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from './components/theme';
 
