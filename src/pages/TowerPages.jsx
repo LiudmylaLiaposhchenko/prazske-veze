@@ -1,15 +1,14 @@
-import React, { useState } from 'react';
-import './style.css';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { HeaderTowerPage } from '../../components/HeaderTowerPage';
+import { HeaderTowerPage } from '../components/HeaderTowerPage';
 import Grid from '@mui/material/Grid';
-import PhotoGallery from '../../components/PhotoGallery';
-import Description from '../../components/Descripton';
-import Information from '../../components/Information';
-import { towers } from '../../towers';
+import PhotoGallery from '../components/PhotoGallery';
+import Description from '../components/Description';
+import Information from '../components/Information';
+import { towers } from '../towers';
 import { useParams } from 'react-router-dom';
-import Review from '../../components/Review';
-import Operation from '../../components/Operation';
+import Review from '../components/Review';
+import Operation from '../components/Operation';
 
 export const TowerPage = () => {
   const { id } = useParams();

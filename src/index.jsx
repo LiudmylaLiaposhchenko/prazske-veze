@@ -4,7 +4,7 @@ import './style.css';
 import './i18n';
 import { HomePage } from './pages/HomePage';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { TowerPage } from './pages/TowerPage';
+import { TowerPage } from './pages/TowerPages';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from './components/theme';
 

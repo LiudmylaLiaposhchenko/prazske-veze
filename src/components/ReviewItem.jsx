@@ -1,11 +1,10 @@
 import React from 'react';
-import './style.css';
 import { Card, CardContent, Rating, Typography } from '@mui/material';
 
 const ReviewItem = ({ authorName, daysAgo, text, ratingValue }) => {
   return (
     <Card sx={{ minWidth: 275 }}>
-      <CardContent>
+      <CardContent style={{ padding: '0px' }}>
         <Rating
           sx={{ display: 'flex' }}
           name="simple-controlled"
@@ -17,7 +16,9 @@ const ReviewItem = ({ authorName, daysAgo, text, ratingValue }) => {
         <Typography sx={{ mb: 1.5 }} color="text.secondary">
           {daysAgo}
         </Typography>
-        <Typography variant="body2">{text}</Typography>
+        <Typography variant="body2" sx={{ textAlign: 'justify' }}>
+          {text}
+        </Typography>
       </CardContent>
     </Card>
   );

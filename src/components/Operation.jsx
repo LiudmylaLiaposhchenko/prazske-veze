@@ -44,10 +44,18 @@ const Operation = ({ time, subtitle3, subtitle4 }) => {
             );
           })}
         </Grid>
-        <Typography variant="subtitle1" gutterBottom>
+        <Typography
+          variant="subtitle1"
+          sx={{ textAlign: 'justify' }}
+          gutterBottom
+        >
           {subtitle3}
         </Typography>
-        <Typography variant="subtitle1" gutterBottom>
+        <Typography
+          variant="subtitle1"
+          sx={{ textAlign: 'justify' }}
+          gutterBottom
+        >
           {subtitle4}
         </Typography>
       </CardContent>
