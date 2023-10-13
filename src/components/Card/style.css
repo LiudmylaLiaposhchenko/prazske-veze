@@ -8,6 +8,7 @@
   padding: 30px;
   font-family: 'Inter', sans-serif;
   cursor: pointer;
+  border: 3px dotted transparent;
 }
 
 .card-container:hover {
