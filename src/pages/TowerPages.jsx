@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useLayoutEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { HeaderTowerPage } from '../components/HeaderTowerPage';
 import Grid from '@mui/material/Grid';
@@ -6,13 +6,18 @@ import PhotoGallery from '../components/PhotoGallery';
 import Description from '../components/Description';
 import Information from '../components/Information';
 import { towers } from '../towers';
-import { useParams } from 'react-router-dom';
+import { useLocation, useParams } from 'react-router-dom';
 import Review from '../components/Review';
 import Operation from '../components/Operation';
 
 export const TowerPage = () => {
   const { id } = useParams();
   const tower = towers.find((inv) => inv.id === Number(id));
+
+  const location = useLocation();
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
 
   const { t } = useTranslation();
   return (
